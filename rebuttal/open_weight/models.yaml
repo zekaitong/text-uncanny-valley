@@ -1,0 +1,20 @@
+models:
+  qwen2.5-7b-instruct:
+    repo_id: Qwen/Qwen2.5-7B-Instruct
+    revision: a09a35458c702b33eeacc393d103063234e8bc28
+  qwen3-30b-a3b:
+    repo_id: Qwen/Qwen3-30B-A3B
+    revision: ad44e777bcd18fa416d9da3bd8f70d33ebb85d39
+  llama-3.1-8b-instruct:
+    repo_id: meta-llama/Llama-3.1-8B-Instruct
+    revision: 0e9e39f249a16976918f6564b8830bc894c89659
+  llama-3.1-70b-awq-int4:
+    repo_id: hugging-quants/Meta-Llama-3.1-70B-Instruct-AWQ-INT4
+    revision: 2123003760781134cfc31124aa6560a45b491fdf
+  gpt-oss-20b:
+    repo_id: openai/gpt-oss-20b
+    revision: 6cee5e81ee83917806bbde320786a8fb61efebee
+  gemma-3-4b-it:
+    repo_id: google/gemma-3-4b-it
+    revision: 093f9f388b31de276ce2de164bdc2081324b9767
+

@@ -1,0 +1,13 @@
+accelerate
+datasets
+google-genai==1.63.0
+matplotlib
+numpy
+pandas
+pypdf
+python-dotenv
+PyYAML
+torch
+tqdm
+transformers
+

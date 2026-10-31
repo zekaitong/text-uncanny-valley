@@ -1,0 +1,12 @@
+input_file: "outputs/repaired/legal_docs_w5_clean_wordseg_repair.jsonl"
+document_type: "legal_documents"
+processed_input: false
+prob: 0.1
+random_seed: 42
+provider_models:
+  - "google:gemini-3-flash-preview"
+batch_size: 1
+sample_size: 100
+thinking: false
+output_dir: "dictionary_repair/legal_gemini/wfr_0_5"
+

@@ -1,0 +1,14 @@
+anthropic
+cohere
+datasets
+google-genai
+matplotlib
+numpy
+openai
+pandas
+python-dotenv
+PyYAML
+requests
+tiktoken
+together
+tqdm
