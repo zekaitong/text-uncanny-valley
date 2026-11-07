@@ -54,7 +54,7 @@ gsm_reasoning_strict:
 		--seed $(GSM_SEED) \
 		--parse_mode $(GSM_PARSE_MODE)
 
-# Recompute corrected NIAH metrics from existing results and rebuild summaries.
+# Recalculate NIAH metrics from saved responses and rebuild summaries.
 niah_fix:
 	$(PYTHON_CMD) summaries/recompute_niah_scores.py "$(NIAH_ROOT)" --output_suffix "$(NIAH_SUFFIX)"
 	$(PYTHON_CMD) summaries/build_niah_summary_from_results.py "$(NIAH_ROOT)" \
